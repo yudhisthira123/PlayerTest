@@ -2,7 +2,7 @@ package com.yudhisthira;
 /**
  * @author yudhisthira
  * 
- * This factory class for creating Player initiator and receiver object
+ * This is factory class for creating Player initiator and receiver instance
  */
 public class PlayerFactory {
 	/**

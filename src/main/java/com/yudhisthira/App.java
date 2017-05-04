@@ -15,7 +15,7 @@ public class App
     	// Second is number of message to be processed or send
     	// Third is added only debugging purpose. Its is time delay between 2 message send by player.
     	// It is in millis.
-    	PlayerController controller = new PlayerController("360T", 10, 1000);
+    	PlayerController controller = new PlayerController("360T", 10, 0);
 		controller.start();
     	
 		/*

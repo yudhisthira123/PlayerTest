@@ -71,7 +71,7 @@ public class Player implements PlayerInterface{
 	 */
 	public Player(boolean isInitiator, int aNumberOfMsg, int messageInterval) {
 		mIsInitiator = isInitiator;
-		mQueue = new ArrayBlockingQueue<>(15);
+		mQueue = new ArrayBlockingQueue<PlayerMessage>(15);
 		mNumberOfmsg = aNumberOfMsg;
 		
 		if(messageInterval > 0) {
